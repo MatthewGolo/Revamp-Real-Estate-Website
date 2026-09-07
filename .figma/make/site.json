@@ -1,0 +1,11 @@
+{
+  "title": "Marci Metzger Homes - Real Estate Agent, Real Estate, Realtor",
+  "description": "Showcases real estate listings with an engaging, user-friendly single-page design that highlights properties and enhances visitor experience.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
