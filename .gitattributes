@@ -12,7 +12,9 @@
 *.tiff               filter=lfs diff=lfs merge=lfs -text
 *.tif                filter=lfs diff=lfs merge=lfs -text
 *.ico                filter=lfs diff=lfs merge=lfs -text
-*.webp               filter=lfs diff=lfs merge=lfs -text
+# Site images are deliberately stored in normal Git so static hosts such as
+# Vercel receive the actual image bytes during their build.
+*.webp               -text
 *.psd                filter=lfs diff=lfs merge=lfs -text
 *.ai                 filter=lfs diff=lfs merge=lfs -text
 *.sketch             filter=lfs diff=lfs merge=lfs -text
